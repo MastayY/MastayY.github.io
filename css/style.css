@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+html { scroll-behavior: smooth; }
 body {
     font-family: 'Poppins';
     overflow-x: hidden;
@@ -350,7 +351,7 @@ form button:hover {
     margin-top: 25px;
 }
 .social a i {
-    font-size: 20px;
+    font-size: 15px;
     color: #19dab9;
     padding: 0 10px;
 }
