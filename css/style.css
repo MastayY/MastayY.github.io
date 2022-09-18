@@ -347,7 +347,7 @@ form button:hover {
     background-color: #29C7AC;
 }
 .social {
-    margin: 25px 0 0 20px;
+    margin-top: 25px;
 }
 .social a i {
     font-size: 20px;
