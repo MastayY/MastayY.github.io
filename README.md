@@ -7,5 +7,3 @@ I'm Using :
   3. Javascript
   4. AOS CSS Animation
   5. FormSubmit
-
-Progress : 85%
