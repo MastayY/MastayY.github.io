@@ -17,7 +17,7 @@ const text = document.querySelector(".sec-text");
                 text.textContent = "Student";
             }, 4000);
             setTimeout(() => {
-                text.textContent = "UI/UX Designer";
+                text.textContent = "Human";
             }, 8000); 
         }
 
