@@ -189,14 +189,15 @@ body {
     width: 50%;
 }
 .about-text h1 {
+    display: inline-block;
     font-size: 45px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #b3b3b3;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #b3b3b3;
     color: #29C7AC;
 }
 .about-text p {
-    font-size: 13px;
-    padding-top: 10px;
+    font-size: 15px;
+    padding-top: 20px;
     text-align: justify;
     color: #d8d8d8;
 }
@@ -259,12 +260,12 @@ body {
 }
 @keyframes html-fill{
     100%{
-        width: 90%;
+        width: 85%;
     }
 }
 @keyframes css-fill{
     100%{
-        width: 80%;
+        width: 75%;
     }
 }
 @keyframes js-fill{
@@ -274,7 +275,7 @@ body {
 }
 @keyframes py-fill{
     100%{
-        width: 50%;
+        width: 40%;
     }
 }
 .contact { background-color: #1a1730; }
@@ -429,7 +430,7 @@ form button:hover {
     }
     .about-main-content {
         padding: 50px 60px;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .about-main-content img {
         border-radius: 50%;
@@ -437,11 +438,11 @@ form button:hover {
     }
     .about-text {
         width: 100%;
+        text-align: center;
     }
     .about-text h1 {
         font-size: 35px;
         margin-top: 20px;
-        text-align: center;
     }
     .about-text p {
         font-size: 13px;
