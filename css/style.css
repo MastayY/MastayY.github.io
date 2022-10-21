@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Poppins';
     overflow-x: hidden;
@@ -209,75 +212,28 @@ body {
 
 .skills {
     background-color: #0a071d;
-}
-.skills-content {
     padding: 100px 120px;
-    color: #fff;
 }
-.skills-content h1 {
-    font-size: 40px;
+.skills h1 {
+    color: #19dab9;
     text-align: center;
-    color: #29C7AC;
 }
 .skills-main-content {
-    padding: 50px 30px;
+    display: grid;
+    padding: 30px 0;
+    grid-template-columns: auto auto auto;
+    grid-column: span 2;
+    gap: 30px;
+    color: #fff;
+    text-align: center;
 }
-.skills-detail {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 10px;
+.skills-detail i {
+    padding: 10px;
+    font-size: 40px;
+    color: #19dab9;
 }
-.skills-detail h3 i {
-    font-size: 25px;
-    color: #29C7AC;
-    padding: 8px;
-}
-.bar {
-    position: relative;
-    border: 2px solid #29C7AC;
-    border-radius: 20px;
-    margin-bottom: 30px;
-}
-.bar div {
-    position: relative;
-    width: 0;
-    height: 9px;
-    border-radius: 10px;
-    background-color: #29C7AC
-}
-#html-bar {
-    animation: html-fill 2s forwards;
-}
-#css-bar {
-    animation: css-fill 2s forwards;
-}
-#js-bar {
-    animation: js-fill 2s forwards;
-}
-#py-bar {
-    animation: py-fill 2s forwards;
-}
-@keyframes html-fill{
-    100%{
-        width: 85%;
-    }
-}
-@keyframes css-fill{
-    100%{
-        width: 75%;
-    }
-}
-@keyframes js-fill{
-    100%{
-        width: 30%;
-    }
-}
-@keyframes py-fill{
-    100%{
-        width: 40%;
-    }
-}
+
+
 .contact { background-color: #1a1730; }
 .contact-content {
     display: flex;
@@ -447,9 +403,11 @@ form button:hover {
     .about-text p {
         font-size: 13px;
     }
-
-    .skills-content {
-        padding: 50px 30px;
+    .skills {
+        padding: 30px 50px;
+    }
+    .skills-main-content {
+        grid-template-columns: auto;
     }
     .skills-content h1 {
         font-size: 35px;
