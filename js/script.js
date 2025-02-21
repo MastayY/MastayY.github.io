@@ -11,13 +11,13 @@ const text = document.querySelector(".sec-text");
 
         const textLoad = () => {
             setTimeout(() => {
-                text.textContent = "Web Developer";
+                text.textContent = "Frontend Developer";
             }, 0);
             setTimeout(() => {
                 text.textContent = "Student";
             }, 4000);
             setTimeout(() => {
-                text.textContent = "Human";
+                text.textContent = "Tech Enthusiast";
             }, 8000); 
         }
 
